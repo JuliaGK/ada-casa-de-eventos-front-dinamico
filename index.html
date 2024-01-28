@@ -1,119 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/homepage.css" />
-      <title>Casa de festas Mamma Mia</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo-content">
-          <a href="index.html">
-            <img class="logo" src="img/logo.svg" alt="Logomarca da casa de festas mamma mia" />
-          </a>
-        </div>
-        <nav>
-          <ul class="menu only-desktop">
-            <li>
-              <a href="index.html">Homepage</a>
-            </li>
-            <li>
-              <a href="#">Formaturas</a>
-            </li>
-            <li>
-              <a href="#">Datas Comemorativas</a>
-            </li>
-            <li>
-              <a href="contato.html">Contato</a>
-            </li>
-          </ul>
-          <div class="hamburger-menu only-mobile">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span></span>
-            </label>
-        
-            <ul class="menu__box">
-              <li><a class="menu__item" href="index.html">Homepage</a></li>
-              <li><a class="menu__item" href="#">Formaturas</a></li>
-              <li><a class="menu__item" href="#">Datas Comemorativas</a></li>
-              <li><a class="menu__item" href="contato.html">Contato</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <h1>Bem vindx a Casa de Festas Mamma Mia</h1>
-        <p class="slogan">Essa é a casa de festas que realiza sonhos.</p>
-        <section id="eventos">
-          <h2>Próximos eventos:</h2>
-          <ul>
-            <li>
-              <h3>17/12 - Formatura Colegio D. Pedro</h3>
-              <img src="img/formatura.jpeg" alt="Foto de grupo de alunas celebrando a formatura" />
-              <br>
-              <a href="formatura.html">Clique para detalhes</a>
-            </li>
-            <li>
-              <h3>24/12 - Festa de Natal Beneficente</h3>
-              <img src="img/natal.jpeg" alt="Foto de celebração de Natal" />
-              <br>
-              <a href="#">Clique para detalhes</a>
-            </li>
-            <li>
-              <h3>31/12 - Reveillon da Mamma</h3>
-              <img src="img/reveillon.webp" alt="Foto do evento de reveillon" /> 
-              <br>
-              <a href="#">Clique para detalhes</a>
-            </li>
-          </ul>
-        </section>
-        <section id="pesquisa">
-          <h2>Votação para atração musical do Reveillon:</h2>
-          <div class="enquete">
-            <div class="resultados">
-              <h3>Resultados Parciais</h3>
-              <ol>
-                <li>DJ (48%)</li>
-                <li>Grupo de Pagode (20%)</li>
-                <li>Banda de Rock (16%)</li>
-              </ol>
-            </div>
-            <div class="votacao">
-              <h3>Vote aqui!</h3>  
-              <form action="#" method="get">
-                <div class="formbox">
-                  <input type="radio" name="atracao_musical" value="DJ" /> 
-                  <label for="dj">DJ</label>
-                </div>
-                <div class="formbox">
-                  <input type="radio" name="atracao_musical" value="pagode" />
-                  <label for="pagode">Pagode</label>
-                </div>
-                <div class="formbox">
-                  <input type="radio" name="atracao_musical" value="rock" />
-                  <label for="rock">Banda de Rock</label>
-                </div>
-                <div class="formbox">
-                  <input type="radio" name="atracao_musical" value="outro" />
-                  <label for="outro">Outro. Qual?</label>
-                  <input type="text" name="outra_atração" placeholder="Digite qual atração musical você quer" />
-                </div>
-                <input type="submit" class="btn-form" value="Votar" />
-              </form>
-            </div>
-          </div> 
-        </section>   
-      </div>
-    </main>
-    <footer>
-      <div class="container">
-        <p>&copy; 2023 | Site desenvolvido por Roosevelt Franklin</p>
-      </div>
-    </footer>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/homepage.css" />
+		<title>Casa de festas Mamma Mia</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo-content">
+					<a href="index.html">
+						<img
+							class="logo"
+							src="img/logo.svg"
+							alt="Logomarca da casa de festas mamma mia"
+						/>
+					</a>
+				</div>
+				<nav>
+					<ul class="menu only-desktop">
+						<li>
+							<a href="index.html">Homepage</a>
+						</li>
+						<li>
+							<a href="#">Formaturas</a>
+						</li>
+						<li>
+							<a href="#">Datas Comemorativas</a>
+						</li>
+						<li>
+							<a href="contato.html">Contato</a>
+						</li>
+					</ul>
+					<div class="hamburger-menu only-mobile">
+						<input id="menu__toggle" type="checkbox" />
+						<label class="menu__btn" for="menu__toggle">
+							<span></span>
+						</label>
+
+						<ul class="menu__box">
+							<li><a class="menu__item" href="index.html">Homepage</a></li>
+							<li><a class="menu__item" href="#">Formaturas</a></li>
+							<li><a class="menu__item" href="#">Datas Comemorativas</a></li>
+							<li><a class="menu__item" href="contato.html">Contato</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<h1>Bem vindx a Casa de Festas Mamma Mia</h1>
+				<p class="slogan">Essa é a casa de festas que realiza sonhos.</p>
+				<section id="eventos">
+					<h2>Próximos eventos:</h2>
+					<ul>
+						<li>
+							<h3>17/12 - Formatura Colegio D. Pedro</h3>
+							<img
+								src="img/formatura.jpeg"
+								alt="Foto de grupo de alunas celebrando a formatura"
+							/>
+							<br />
+							<a href="formatura.html">Clique para detalhes</a>
+						</li>
+						<li>
+							<h3>24/12 - Festa de Natal Beneficente</h3>
+							<img src="img/natal.jpeg" alt="Foto de celebração de Natal" />
+							<br />
+							<a href="#">Clique para detalhes</a>
+						</li>
+						<li>
+							<h3>31/12 - Reveillon da Mamma</h3>
+							<img src="img/reveillon.webp" alt="Foto do evento de reveillon" />
+							<br />
+							<a href="#">Clique para detalhes</a>
+						</li>
+					</ul>
+				</section>
+				<section id="pesquisa">
+					<h2>Votação para atração musical do Reveillon:</h2>
+					<div class="enquete">
+						<div class="resultados">
+							<h3>Resultados Parciais</h3>
+							<ol id="listaResultados"></ol>
+						</div>
+						<div class="votacao">
+							<h3>Vote aqui!</h3>
+							<form
+								id="formAtracaoMusical"
+								action="#"
+								method="get"
+								onsubmit="return false"
+							>
+								<div class="formbox">
+									<input type="radio" name="atracao_musical" value="DJ" />
+									<label for="dj">DJ</label>
+								</div>
+								<div class="formbox">
+									<input type="radio" name="atracao_musical" value="pagode" />
+									<label for="pagode">Pagode</label>
+								</div>
+								<div class="formbox">
+									<input type="radio" name="atracao_musical" value="rock" />
+									<label for="rock">Banda de Rock</label>
+								</div>
+								<div class="formbox">
+									<input type="radio" name="atracao_musical" value="outro" />
+									<label for="outro">Outro. Qual?</label>
+									<input
+										type="text"
+										name="outra_atração"
+										placeholder="Digite qual atração musical você quer"
+									/>
+								</div>
+								<input type="submit" class="btn-form" value="Votar" />
+							</form>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<p>&copy; 2023 | Site desenvolvido por Roosevelt Franklin</p>
+			</div>
+		</footer>
+	</body>
+	<script src="votacao.js"></script>
 </html>
